@@ -25,4 +25,4 @@ def pares_optimizada(numero):
         inicio+=1
     
 
-print(list(pares_optimizada(numero)))
+print(next(pares_optimizada(numero)))
