@@ -5,4 +5,18 @@ def dividir_elementos(lista,divisor):
     
     return [int(i/divisor) for i in lista] #en cambio de esta forma devuelve toda la lista
     
-print(dividir_elementos(lista,divisor))
+#print(dividir_elementos(lista,divisor))
+
+import sys
+sys.path.append('/home/silvio/Escritorio/SoyHenryEjercicios/clase7')
+
+# import clase7
+# dir (clase7)
+# import sys
+#print(sys.path)
+import funcionescreadas as fc
+import funciones_ejercicio_con_lista as fel
+
+# objeto_importado=fel.Funciones_antiguas([1,2])
+# print(objeto_importado.primo())
+
